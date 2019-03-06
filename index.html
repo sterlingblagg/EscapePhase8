@@ -1,0 +1,69 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<!DOCTYPE html>
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Phase 8</title>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="shortcut icon" type="image/png" href="images/lock.png"/>
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+		<div class="column">
+			<div class="box blue center-content">
+				<img src="images/symbol1.png" class="restrict-img-size">
+			</div>
+			<div class="box purple center-content">
+				<img src="images/symbol2.png" class="restrict-img-size">
+			</div>
+			<div class="box blue center-content">
+				<img src="images/symbol3.png" class="restrict-img-size">
+			</div>
+		</div>
+		<div class="column">
+			<div class="box purple center-content">
+				<img src="images/question.png" class="restrict-img-size btn grow" onclick="alertHint(this)">
+			</div>
+			<div class="box light">
+				<div class="fifthbox grey center-content">
+					<img src="images/symbol1.png" class="restrict-img-size grow" id="slot1" onclick="nextImage(this)">
+				</div>
+				<div class="fifthbox black center-content">
+					<img src="images/symbol1.png" class="restrict-img-size grow" id="slot2" onclick="nextImage2(this)">
+				</div>
+				<div class="fifthbox grey center-content">
+					<img src="images/symbol1.png" class="restrict-img-size grow" id="slot3" onclick="nextImage3(this)">
+				</div>
+				<div class="fifthbox black center-content">
+					<img src="images/symbol1.png" class="restrict-img-size grow" id="slot4" onclick="nextImage4(this)">
+				</div>
+				<div class="fifthbox grey center-content">
+					<img src="images/symbol1.png" class="restrict-img-size grow" id="slot5" onclick="nextImage5(this)">
+				</div>
+			</div>
+			<div class="box purple center-content">
+				<img src="images/enter.png" class="restrict-img-size btn grow" onclick = "buttonPageSwap(this)">
+			</div>
+		</div>
+		<div class="column">
+			<div class="box blue center-content">
+				<img src="images/symbol4.png" class="restrict-img-size">
+			</div>
+			<div class="box purple center-content">
+				<img src="images/symbol5.png" class="restrict-img-size">
+			</div>
+			<div class="box blue center-content">
+				<img src="images/symbol6.png" class="restrict-img-size">
+			</div>
+		</div>
+		
+		<audio src="sounds/wrong.mp3" type="audio/mp3" id="wrong-answer"> </audio>
+		
+		<script src="script.js"></script>
+	</body>
+</html>
+
