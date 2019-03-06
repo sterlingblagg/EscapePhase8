@@ -67,7 +67,7 @@ function nextImage5(el){
 
 function buttonPageSwap(el){
 	if (a.src.match("symbol2") && b.src.match("symbol1") && c.src.match("symbol3") && d.src.match("symbol3") && e.src.match("symbol2")){	
-		document.location.href = "https://www.google.com"
+		document.location.href = "https://sterlingblagg.github.io/EscapeRoomEnding/"
 	} else {
 		wrongAnswer.play();
 	}
