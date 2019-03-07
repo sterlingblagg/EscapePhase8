@@ -6,67 +6,157 @@ e = document.getElementById("slot5");
 var wrongAnswer = document.getElementById('wrong-answer')
 
 function nextImage(el){
-	if (el.src.match("images/symbol1.png")){
-		el.src = "images/symbol2.png";
-	} else if (el.src.match("images/symbol2.png")){
-		el.src = "images/symbol3.png";
-	} else if (el.src.match("images/symbol3.png")){
-		el.src = "images/symbol1.png";
+	if (el.src.match("images/smallsymbol1.png")){
+		el.src = "images/smallsymbol2.png";
+	} else if (el.src.match("images/smallsymbol2.png")){
+		el.src = "images/smallsymbol3.png";
+	} else if (el.src.match("images/smallsymbol3.png")){
+		el.src = "images/smallsymbol4.png";
+	} else if (el.src.match("images/smallsymbol4.png")){
+		el.src = "images/smallsymbol5.png";
+	} else if (el.src.match("images/smallsymbol5.png")){
+		el.src = "images/smallsymbol6.png";
+	} else if (el.src.match("images/smallsymbol6.png")){
+		el.src = "images/smallsymbol7.png";
+	} else if (el.src.match("images/smallsymbol7.png")){
+		el.src = "images/smallsymbol8.png";
+	} else if (el.src.match("images/smallsymbol8.png")){
+		el.src = "images/smallsymbol9.png";
+	} else if (el.src.match("images/smallsymbol9.png")){
+		el.src = "images/smallsymbol10.png";
+	} else if (el.src.match("images/smallsymbol10.png")){
+		el.src = "images/smallsymbol11.png";
+	} else if (el.src.match("images/smallsymbol11.png")){
+		el.src = "images/smallsymbol12.png";
+	} else if (el.src.match("images/smallsymbol12.png")){
+		el.src = "images/smallsymbol1.png";
 	} else {
 		
 	}
 }
 
 function nextImage2(el){
-	if (el.src.match("images/symbol1.png")){
-		el.src = "images/symbol2.png";
-	} else if (el.src.match("images/symbol2.png")){
-		el.src = "images/symbol3.png";
-	} else if (el.src.match("images/symbol3.png")){
-		el.src = "images/symbol1.png";
+	if (el.src.match("images/smallsymbol1.png")){
+		el.src = "images/smallsymbol2.png";
+	} else if (el.src.match("images/smallsymbol2.png")){
+		el.src = "images/smallsymbol3.png";
+	} else if (el.src.match("images/smallsymbol3.png")){
+		el.src = "images/smallsymbol4.png";
+	} else if (el.src.match("images/smallsymbol4.png")){
+		el.src = "images/smallsymbol5.png";
+	} else if (el.src.match("images/smallsymbol5.png")){
+		el.src = "images/smallsymbol6.png";
+	} else if (el.src.match("images/smallsymbol6.png")){
+		el.src = "images/smallsymbol7.png";
+	} else if (el.src.match("images/smallsymbol7.png")){
+		el.src = "images/smallsymbol8.png";
+	} else if (el.src.match("images/smallsymbol8.png")){
+		el.src = "images/smallsymbol9.png";
+	} else if (el.src.match("images/smallsymbol9.png")){
+		el.src = "images/smallsymbol10.png";
+	} else if (el.src.match("images/smallsymbol10.png")){
+		el.src = "images/smallsymbol11.png";
+	} else if (el.src.match("images/smallsymbol11.png")){
+		el.src = "images/smallsymbol12.png";
+	} else if (el.src.match("images/smallsymbol12.png")){
+		el.src = "images/smallsymbol1.png";
 	} else {
 		
 	}
 }
 
 function nextImage3(el){
-	if (el.src.match("images/symbol1.png")){
-		el.src = "images/symbol2.png";
-	} else if (el.src.match("images/symbol2.png")){
-		el.src = "images/symbol3.png";
-	} else if (el.src.match("images/symbol3.png")){
-		el.src = "images/symbol1.png";
+	if (el.src.match("images/smallsymbol1.png")){
+		el.src = "images/smallsymbol2.png";
+	} else if (el.src.match("images/smallsymbol2.png")){
+		el.src = "images/smallsymbol3.png";
+	} else if (el.src.match("images/smallsymbol3.png")){
+		el.src = "images/smallsymbol4.png";
+	} else if (el.src.match("images/smallsymbol4.png")){
+		el.src = "images/smallsymbol5.png";
+	} else if (el.src.match("images/smallsymbol5.png")){
+		el.src = "images/smallsymbol6.png";
+	} else if (el.src.match("images/smallsymbol6.png")){
+		el.src = "images/smallsymbol7.png";
+	} else if (el.src.match("images/smallsymbol7.png")){
+		el.src = "images/smallsymbol8.png";
+	} else if (el.src.match("images/smallsymbol8.png")){
+		el.src = "images/smallsymbol9.png";
+	} else if (el.src.match("images/smallsymbol9.png")){
+		el.src = "images/smallsymbol10.png";
+	} else if (el.src.match("images/smallsymbol10.png")){
+		el.src = "images/smallsymbol11.png";
+	} else if (el.src.match("images/smallsymbol11.png")){
+		el.src = "images/smallsymbol12.png";
+	} else if (el.src.match("images/smallsymbol12.png")){
+		el.src = "images/smallsymbol1.png";
 	} else {
 		
 	}
 }
 
 function nextImage4(el){
-	if (el.src.match("images/symbol1.png")){
-		el.src = "images/symbol2.png";
-	} else if (el.src.match("images/symbol2.png")){
-		el.src = "images/symbol3.png";
-	} else if (el.src.match("images/symbol3.png")){
-		el.src = "images/symbol1.png";
+	if (el.src.match("images/smallsymbol1.png")){
+		el.src = "images/smallsymbol2.png";
+	} else if (el.src.match("images/smallsymbol2.png")){
+		el.src = "images/smallsymbol3.png";
+	} else if (el.src.match("images/smallsymbol3.png")){
+		el.src = "images/smallsymbol4.png";
+	} else if (el.src.match("images/smallsymbol4.png")){
+		el.src = "images/smallsymbol5.png";
+	} else if (el.src.match("images/smallsymbol5.png")){
+		el.src = "images/smallsymbol6.png";
+	} else if (el.src.match("images/smallsymbol6.png")){
+		el.src = "images/smallsymbol7.png";
+	} else if (el.src.match("images/smallsymbol7.png")){
+		el.src = "images/smallsymbol8.png";
+	} else if (el.src.match("images/smallsymbol8.png")){
+		el.src = "images/smallsymbol9.png";
+	} else if (el.src.match("images/smallsymbol9.png")){
+		el.src = "images/smallsymbol10.png";
+	} else if (el.src.match("images/smallsymbol10.png")){
+		el.src = "images/smallsymbol11.png";
+	} else if (el.src.match("images/smallsymbol11.png")){
+		el.src = "images/smallsymbol12.png";
+	} else if (el.src.match("images/smallsymbol12.png")){
+		el.src = "images/smallsymbol1.png";
 	} else {
 		
 	}
 }
 
 function nextImage5(el){
-	if (el.src.match("images/symbol1.png")){
-		el.src = "images/symbol2.png";
-	} else if (el.src.match("images/symbol2.png")){
-		el.src = "images/symbol3.png";
-	} else if (el.src.match("images/symbol3.png")){
-		el.src = "images/symbol1.png";
+	if (el.src.match("images/smallsymbol1.png")){
+		el.src = "images/smallsymbol2.png";
+	} else if (el.src.match("images/smallsymbol2.png")){
+		el.src = "images/smallsymbol3.png";
+	} else if (el.src.match("images/smallsymbol3.png")){
+		el.src = "images/smallsymbol4.png";
+	} else if (el.src.match("images/smallsymbol4.png")){
+		el.src = "images/smallsymbol5.png";
+	} else if (el.src.match("images/smallsymbol5.png")){
+		el.src = "images/smallsymbol6.png";
+	} else if (el.src.match("images/smallsymbol6.png")){
+		el.src = "images/smallsymbol7.png";
+	} else if (el.src.match("images/smallsymbol7.png")){
+		el.src = "images/smallsymbol8.png";
+	} else if (el.src.match("images/smallsymbol8.png")){
+		el.src = "images/smallsymbol9.png";
+	} else if (el.src.match("images/smallsymbol9.png")){
+		el.src = "images/smallsymbol10.png";
+	} else if (el.src.match("images/smallsymbol10.png")){
+		el.src = "images/smallsymbol11.png";
+	} else if (el.src.match("images/smallsymbol11.png")){
+		el.src = "images/smallsymbol12.png";
+	} else if (el.src.match("images/smallsymbol12.png")){
+		el.src = "images/smallsymbol1.png";
 	} else {
 		
 	}
 }
 
 function buttonPageSwap(el){
-	if (a.src.match("symbol2") && b.src.match("symbol1") && c.src.match("symbol3") && d.src.match("symbol3") && e.src.match("symbol2")){	
+	if (a.src.match("smallsymbol5") && b.src.match("smallsymbol1") && c.src.match("smallsymbol10") && d.src.match("smallsymbol12") && e.src.match("smallsymbol8")){	
 		document.location.href = "https://sterlingblagg.github.io/EscapeRoomEnding/"
 	} else {
 		wrongAnswer.play();
