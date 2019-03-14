@@ -28,6 +28,7 @@
 			<div class="box purple center-content">
 				<img src="images/question.png" class="restrict-img-size btn grow" onclick="alertHint(this)">
 			</div>
+			<!-- The content in the "box light" div contains all five of the images inside of them that will be cycled. These are identified by the ids "slot1" to "slot5". Their onclick values (nextImage-nextImage5) are the core of what allows them to cycle through the set of twelve images, and is also what allows the main component of the Java to work, which is the "buttonPageSwap" onclick. -->
 			<div class="box light">
 				<div class="fifthbox grey center-content">
 					<img src="images/smallsymbol1.png" class="restrict-img-size grow" id="slot1" onclick="nextImage(this)">
@@ -45,6 +46,7 @@
 					<img src="images/smallsymbol1.png" class="restrict-img-size grow" id="slot5" onclick="nextImage5(this)">
 				</div>
 			</div>
+			<!-- The enter.png image contains the "buttonPageSwap" onclick value that is the most important component of the puzzle, and this is what allows the users to progress. -->
 			<div class="box purple center-content">
 				<img src="images/enter.png" class="restrict-img-size btn grow" onclick = "buttonPageSwap(this)">
 			</div>

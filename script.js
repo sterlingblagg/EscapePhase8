@@ -155,6 +155,8 @@ function nextImage5(el){
 	}
 }
 
+//For the function below, it checks five distinct divs that correspond to the five slots in the center of the website. Once all five of the images are in the right order, the website will change due to an href that sends you to the congratulations page.
+
 function buttonPageSwap(el){
 	if (a.src.match("smallsymbol5") && b.src.match("smallsymbol1") && c.src.match("smallsymbol10") && d.src.match("smallsymbol12") && e.src.match("smallsymbol8")){	
 		document.location.href = "https://sterlingblagg.github.io/EscapeRoomEnding/"
