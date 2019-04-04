@@ -162,6 +162,7 @@ function buttonPageSwap(el){
 		document.location.href = "https://sterlingblagg.github.io/EscapeRoomEnding/"
 	} else {
 		wrongAnswer.play();
+		alert("Hint: How do you read a book?")
 	}
 }
 
